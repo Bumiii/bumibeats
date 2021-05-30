@@ -17,7 +17,7 @@ client.on('ready', () => {
         status: 'available',     //sets status button to green   
         activity: {
             name: `!bb play | ${client.guilds.cache.size} servers`,    //This is the custom text  
-            type: 'PLAYING'     //this is the type (duh). 'watching' would also be an option  
+            type: 'LISTENING'     //this is the type (duh). 'watching' would also be an option  
         }
         
     });
